@@ -1,0 +1,7 @@
+
+<h2>Test</h2>
+<p>
+    Let's see if I have XSS, Hello {{ name | e}}
+    <a href={{ url_for('show_entries')}}?name={{ name |e}}>
+        Click here to go to main page</a>
+</p>

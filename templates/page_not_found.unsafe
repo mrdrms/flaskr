@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block body %}
+    <div class="center-content error">
+        <h1>Nobody is here....</h1>
+        <h3>{{url | e}}</h3>
+    </div>
+{% endblock %}
